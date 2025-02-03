@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="/x" method="">
+      <div>
+        <label for="username">Enter Name</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="enter here"
+          name="user"
+        /><br />
+      </div>
+      <div>
+        <label for="password">Enter password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="enter here"
+          name="pass"
+        /><br />
+      </div>
+      <div>
+        <label for="age">Enter age :</label>
+        <input type="number" id="age" placeholder="enter age" name="age" />
+      </div>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+    <hr />
+
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" placeholder="search in google" />
+      <button type="submit">submit</button>
+    </form>
+    <hr />
+
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" placeholder="search in youtube" />
+      <button type="submit">submit</button>
+    </form>
+
+    <!-- https://www.youtube.com/results?search_query -->
+  </body>
+</html>
