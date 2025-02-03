@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>keyboard event</title>
+	<script type="text/javascript">
+		function keydown(){
+			document.body.style.background ="yellow";
+		}
+
+		function keypress(){
+			document.body.style.background ="lightgreen";
+		}
+
+		function keyup(){
+			document.body.style.background ="cyan";
+		}
+	</script>
+</head>
+<body>
+
+<form action="" method="">
+	<label>first name</label><input type="text" name="firstname" onkeydown="keydown()"><br><br>
+
+	<label>last name</label><input type="text" name="lastname" onkeypress="keypress()"><br><br>
+
+	<label>contact no.</label><input type="text" name="contactno" onkeyup="keyup()"><br><br>
+</form>
+</body>
+</html>
