@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example of page break before</title>
+	<style type="text/css">
+		div{
+			font-size: 20px;
+			/*page-break-before: right;*/
+			/*page-break-before: auto;*/
+			/*page-break-before: avoid;*/
+			/*page-break-before: left;*/
+			page-break-before: always;
+
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Hellow Everyone</h1>
+	<h2>this is website</h2>
+	<div>
+		this is website this is amazing place to learn HTML, CSS, Jquary, JavaScript and many more programming language. you acn learn as many programming language as you can and build your career with us. good luck!
+	</div>
+
+	<button onclick="printFunction()">print</button>
+
+	<script type="text/javascript">
+		function printFunction() {
+			window.print();
+		}
+	</script>
+
+</body>
+</html>

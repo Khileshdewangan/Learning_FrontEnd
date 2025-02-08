@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example of after</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		h1::after {
+			content: "welcome to my website";
+			color: red;
+		}
+		h1{
+			color: blue;
+		}
+		.curew{
+			margin: 0 auto;
+			position: relative;
+			width: 0;
+			height: 0;
+			border-top: 10px solid transparent;
+			border-right: 10px solid red;
+			transform: rotate(10deg);
+		}
+		.curew::after{
+			content: "";
+			position: absolute;
+			border: 0 solid transparent;
+			border-top: 3px solid red;
+			border-radius: 20px 0 0;
+			top: -12px;
+			left: -9px;
+			width: 15px;
+			height: 15px;
+			transform: rotate(45deg);
+		}
+	</style>
+</head>
+<body>
+<h1>hello, all</h1>
+<h2>this is example of ::after pesudo element</h2>
+<h3>in the first line the "hello world" is adding using :: after pseudo element</h3>
+<div class="curew"></div>
+</body>
+</html>

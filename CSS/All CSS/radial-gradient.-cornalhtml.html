@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example  radial gradiant differed shape</title>
+	<style type="text/css">
+		#grid1{
+			height: 200px;
+			width: 200px;
+			background-image: radial-gradient(farthest-side at left  bottom, red,green, yellow)
+		}
+		#grid2{
+			height: 200px;
+			width: 200px;
+			background-image: radial-gradient(farthest-corner at left  bottom, red,green, yellow)
+		}
+		#grid3{
+			height: 200px;
+			width: 200px;
+			background-image: radial-gradient(closest-side, red,green, yellow)
+		}
+		#grid4{
+			height: 200px;
+			width: 200px;
+			background-image: radial-gradient(closest-corner, red,green, yellow)
+		}
+	</style>
+</head>
+<body>
+
+	<h3>radial gradint cornal</h3>
+
+	 <h3>radial-gradient farthest-side at left  bottom</h3>
+	<div id="grid1"></div>
+
+	 <h3>radial-gradient-corner at left  bottom</h3>
+	 <div id="grid2"></div>
+
+	 <h3>radial-gradient closest side</h3>
+	 <div id="grid3"></div>
+
+	 <h3>radial-gradient closest corner</h3>
+	 <div id="grid4"></div>
+</body>
+</html>

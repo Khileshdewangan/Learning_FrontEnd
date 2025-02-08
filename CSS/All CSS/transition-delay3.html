@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example transtion delay program 3</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		div{
+			margin: 0 auto;
+			width: 100px;
+			height: 100px;
+			background-color: skyblue;
+			transition:background-color 1s,width1s, height 2s, transform 2s;
+			transition-delay: 1.5ms;
+			/*transition-duration: 1s;*/
+
+			/*for safari browser*/
+			/*-webkit-transition-property: width;
+			-webkit-transition-duration: 1s;
+			-webkit-transition-delay: 0.5s;*/
+		}
+		div:hover{
+			width: 200px;
+			height: 200px;
+			background-color: brown;
+			transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+		}
+	</style>
+</head>
+<body>
+
+	<h3>hover div to rotate in 360deg</h3>
+	<div></div>
+
+</body>
+</html>

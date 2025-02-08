@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example of psudo selector</title>
+	<style type="text/css">
+		
+		.tag{
+			background-color: blue;
+			text-align: center;
+			font-size: 20px;
+			padding: 20px;
+		}
+		.tag:hover{
+			background-color: green;
+			color: red; 
+		}
+		.achor{
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding: 30px;
+		}
+		.achor a:active{
+			color:green;
+		}
+		.achor a:visited{
+			color:orange;
+		}
+
+		p:lang(fr){
+			color: orange;
+		}
+		input:focus{
+			border:5px solid blue;
+			/* color: red; */
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div>
+		<p class="tag">
+			this is p tag.
+		</p>
+	</div>
+
+	<div class="achor">
+		<a href="tradingview.html" target="_blank">tradingview</a>
+	</div>
+
+	<p>this p tag is without lang attribute	</p>
+
+	<p lang="fr">this p tag is with lang attribute	</p>
+
+	<input type="text" name="firstname" placeholder="firstname">
+
+</body>
+</html>

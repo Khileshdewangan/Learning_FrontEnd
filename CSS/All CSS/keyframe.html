@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example of keyframes</title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			animation: demo 5s infinite, trans 5s infinite;
+			/*-webkit-animation: demo 5s infinite;*/
+			border-radius: 40px;
+			background-color: red;
+		}
+
+		@keyframes demo{
+			0%{
+				background-color: red;
+			}
+			50%{
+				background-color: yellow;
+				width: 150px;
+				height: 150px;
+			}
+			100%{
+				background-color: green;
+				width: 250px;
+				height: 250px;
+			}
+		}
+
+		@keyframes trans{
+			0%{
+				transform: translate(0px); 
+				scale:1.4;
+				rotate:-80deg;
+			}
+			50%{
+				transform:translate(250px); 
+				scale:1.2;
+				rotate:40deg;
+			}
+			100%{
+				transform:translate(350px); 
+				scale:1;
+				rotate:0deg;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<p>above ractangle will be animation</p>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example of justify</title>
+	<style type="text/css">
+		.div{
+			width: 700px;
+			border: 1px solid black;
+		}
+		.item{
+			width: 50px;
+			height: 50px;
+			padding: 5px;
+			margin: 5px;
+			font-size: 2em;
+			font-weight: bold;
+			color: white;
+			border: 1px solid black;
+			text-align: center;
+			background-color: lightgreen;
+
+		}
+		.flex-center{
+			display: flex;
+			justify-content: center;
+		}
+		.flex-start{
+			display: flex;
+			justify-content:flex-start;
+		}
+		.flex-end{
+			display: flex;
+			justify-content:end;
+		}
+		.space-around{
+			display: flex;
+			justify-content:space-around;
+		}
+		.space-evenly{
+			display: flex;
+			justify-content:space-evenly;
+		}
+		.space-between{
+			display: flex;
+			justify-content:space-between;
+		}
+	</style>
+</head>
+<body><div class="div">
+
+	<h2>justify-contant: center</h2>
+	<div class="flex-center">
+		<div class="item">a</div>
+		<div class="item">b</div>
+		<div class="item">c</div>
+		<div class="item">d</div>
+		<div class="item">e</div>
+	</div>
+
+	<h2>justify-contant: flax-start</h2>
+	<div class="flex-start">
+		<div class="item">a</div>
+		<div class="item">b</div>
+		<div class="item">c</div>
+		<div class="item">d</div>
+		<div class="item">e</div>
+	</div>
+
+	<h2>justify-contant: flax-end</h2>
+	<div class="flex-end">
+		<div class="item">a</div>
+		<div class="item">b</div>
+		<div class="item">c</div>
+		<div class="item">d</div>
+		<div class="item">e</div>
+	</div>
+
+	<h2>justify-contant:space-around</h2>
+	<div class="space-around">
+		<div class="item">a</div>
+		<div class="item">b</div>
+		<div class="item">c</div>
+		<div class="item">d</div>
+		<div class="item">e</div>
+	</div>
+
+	<h2>justify-contant:space-evenly</h2>
+	<div class="space-evenly">
+		<div class="item">a</div>
+		<div class="item">b</div>
+		<div class="item">c</div>
+		<div class="item">d</div>
+		<div class="item">e</div>
+	</div>
+
+	<h2>justify-contant:space-between</h2>
+	<div class="space-between">
+		<div class="item">a</div>
+		<div class="item">b</div>
+		<div class="item">c</div>
+		<div class="item">d</div>
+		<div class="item">e</div>
+	</div>
+
+</div>
+</body>
+</html>

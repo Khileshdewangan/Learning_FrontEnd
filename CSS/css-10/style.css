@@ -1,0 +1,16 @@
+.box{
+    height: 100px;
+    width: 100px;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: yellowgreen;
+    position: relative;
+    bottom: 50px;
+    z-index: -1;
+}
+.three{
+    background-color: tomato;
+}

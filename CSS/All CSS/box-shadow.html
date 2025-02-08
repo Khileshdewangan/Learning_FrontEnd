@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example box-shadow propertics</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		div{
+			margin: 30px auto;
+			border:1px solid #adadad;
+			padding: 10px;
+			width: 50%;
+			}
+
+		.hvb{
+			box-shadow: 5px 10px 10px;
+			}
+
+		.hvbs{
+			box-shadow: 5px 10px 10px 10px;	
+			}
+
+		.hvbsc{
+			box-shadow: 5px 10px 10px 10px yellow;	
+			}
+
+		.box-inset{
+			box-shadow: 5px 10px 10px 10px blue inset;	
+			}
+
+		.box-initial{
+			box-shadow: 5px 10px 10px 10px blue initial;	
+			}
+
+
+		.box-none{
+			box-shadow:none;	
+			}
+	</style>
+</head>
+<body>
+
+	<div class="hvb">
+		<h3>this div show only h-offset, v-offset, and blur</h3>
+	</div>
+
+	<div class="hvbs">
+		<h3>this div show only h-offset, v-offset, blur, and spread attribue</h3>
+	</div>
+
+	<div class="hvbsc">
+		<h3>this div show only h-offset, v-offset, blur, spread,color attribue</h3>
+	</div>
+
+	<div class="box-inset">
+		<h3>this div show shadow with inset propertics</h3>
+	</div>
+
+	<div class="box-initial">
+		<h3>this div show shadow with initial propertics</h3>
+	</div>
+
+	<div class="box-none">
+		<h3>this div show shadow with none propertics</h3>
+	</div>
+</body>
+</html>

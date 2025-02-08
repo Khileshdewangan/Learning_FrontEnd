@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example word wrap propertucs</title>
+	<style type="text/css">
+
+		table, table tr td,table tr th{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		table{
+			width: 30%;
+		}
+		table tr td,table tr th{
+			/*word-wrap: normal;*/
+			/*word-wrap: break-word;*/
+			/*word-break: break-word;*/
+			/*word-break: normal;*/
+			word-break: break-all;
+			/*word-break: word-break;*/
+		}
+	</style>
+</head>
+<body>
+
+	<table>
+		
+		<tr>
+			<th>idfd hmdn</th>
+			<th>first name</th>
+			<th>last name</th>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>abc</td>
+			<td>xyz</td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td>abcdefghijklmnopqrstuvwxyz</td>
+			<td>xyz</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>abcdefghij</td>
+			<td>xyoiertyuwovinz</td>
+		</tr>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example of text overflow</title>
+	<style type="text/css">
+		div{
+			width: 150px;
+			border:1px solid black;
+			white-space: nowrap;
+			overflow: hidden;
+			margin: 2px;
+
+		}
+
+		div:hover{
+			overflow: visible;
+		}
+	</style>
+</head>
+<body>
+
+	<div style="text-overflow: clip;">
+		this is a very long text that is going out of the div width
+	</div>
+
+	<div style="text-overflow: ellipsis;">
+		this is a very long text that is going out of the div width
+	</div>
+
+</body>
+</html>

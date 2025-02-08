@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example transtion delay program 1</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		div{
+			margin: 0 auto;
+			width: 100px;
+			height: 100px;
+			background-color: skyblue;
+			transition-property: background-color;
+			transition-duration: 1s;
+			transition-delay: 0.5s;
+
+			/*for safari browser*/
+			/*-webkit-transition-property: background-color;
+			-webkit-transition-duration: 1s;
+			-webkit-transition-delay: 0.5s;*/
+		}
+		div:hover{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+
+	<h3>hover div to change the color</h3>
+	<div></div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example of animation-1 </title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		div{
+			margin: 0 auto;
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			animation: myfirst 5s;
+			-webkit-animation: myfirst 5s;
+			animation-iteration-count: infinite;
+		}
+			
+		/*@-webkit-keyframes myfirst{
+			from{background-color: red;}
+			to{background-color: black;}
+		}*/
+
+		@keyframes myfirst{
+			from{background-color: red;}
+			to{background-color: black;}
+		}
+	</style>
+</head>
+<body>
+<h3>the ractangle will continously change the color</h3>
+<div></div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example text shadow</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		.fuzze{
+			font-size: 30px;
+			text-shadow: 3px 3px 3px green;
+		}
+
+		.multiple{
+			font-size: 30px;
+			text-shadow: -3px -3px 3px green,3px 3px 3px blue;
+		}
+
+		.glow{
+			font-size: 30px;
+			background-color: black;
+			text-shadow:0 0 0.1em cyan;
+		}
+	</style>
+</head>
+<body>
+
+	<p style="text-shadow: 1px 1px red">simple shadow</p>
+
+	<p class="fuzze">fuzze shadow</p>
+
+	<p class="multiple">multiple shadow</p>
+
+	<p class="glow">glow shadow</p>
+
+</body>
+</html>
